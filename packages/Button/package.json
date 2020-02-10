@@ -1,0 +1,19 @@
+{
+  "name": "@rimble/codefi-button",
+  "version": "0.1.0",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "module": "./lib-esm/index.js",
+  "author": "ConsenSys",
+  "license": "MIT",
+  "scripts": {
+    "libbuild": "tsc && tsc --build tsconfig.esm.json"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.18",
+    "react": "^16.8.6"
+  },
+  "peerDependencies": {
+    "react": "^16.8.6"
+  }
+}
