@@ -1,9 +1,15 @@
 {
-	"exclude": ["node_modules"],
-	"files": ["./typings.d.ts"],
-	"compilerOptions": {
-		"jsx": "react",
-		"esModuleInterop": true,
-		"skipLibCheck": true
-	}
+  "files": ["./typings.d.ts"],
+  "compilerOptions": {
+    "jsx": "react",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "allowJs": true,
+    "target": "es6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noResolve": false
+  },
+  "exclude": ["./node_modules/**/*"]
 }

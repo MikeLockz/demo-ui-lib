@@ -1,11 +1,11 @@
-import React from 'react';
-import './App.css';
-import Button as CodefiButton from '@rimble/codefi-button';
+import React from "react";
+import "./App.css";
+import Button from "@rimble/codefi-button";
 
 function App() {
   return (
     <div className="App">
-      <CodefiButton>I am @rimble/codefi-button</CodefiButton>
+      <Button>I am @rimble/codefi-button</Button>
     </div>
   );
 }
