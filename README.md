@@ -4,7 +4,7 @@ Monorepo for developing and publishing React components.
 
 # Quick start
 
-Each package is independently versioned and published. This allows to opt-in to individual component updates without needing to update an entire library of components.This also required more package installations and import statements.
+Each package is independently versioned and published. This allows to opt-in to individual component updates without needing to update an entire library of components. This also requires more package installations and import statements.
 
 **Install components**
 
