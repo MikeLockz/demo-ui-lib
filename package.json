@@ -18,5 +18,8 @@
     "story": "lerna run story --stream",
     "prestart": "lerna run libbuild --stream",
     "start": "lerna run start --stream"
+  },
+  "dependencies": {
+    "@types/react-dom": "^16.9.5"
   }
 }

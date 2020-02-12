@@ -1,6 +1,5 @@
 import React from "react";
-import "./App.css";
-import Button from "@rimble/codefi-button";
+import { Button } from "@rimble/codefi-button";
 
 function App() {
   return (
