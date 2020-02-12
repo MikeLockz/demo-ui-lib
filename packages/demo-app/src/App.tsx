@@ -1,11 +1,20 @@
 import React from "react";
-import { Button } from "@rimble/codefi-button";
+import { ThemeProvider } from "styled-components";
+import CodefiButton from "@rimble/codefi-button";
+// import CodefiTheme from "@rimble/codefi-themes";
+
+const theme = {
+  colors: {
+    primary: "blue",
+    text: "white"
+  }
+};
 
 function App() {
   return (
-    <div className="App">
-      <Button>I am @rimble/codefi-button</Button>
-    </div>
+    <ThemeProvider theme={theme}>
+      <CodefiButton>I am @rimble/codefi-button</CodefiButton>
+    </ThemeProvider>
   );
 }
 

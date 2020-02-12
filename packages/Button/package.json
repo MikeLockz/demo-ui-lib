@@ -18,7 +18,7 @@
     "typescript": "^3.6.4"
   },
   "peerDependencies": {
-    "react": "^16.11.0",
-    "react-dom": "^16.11.0"
+    "react": "~16.x.x",
+    "styled-components": "5.x.x"
   }
 }
