@@ -7,13 +7,12 @@ import {
   successColors,
   warningColors,
   errorColors,
-  grayscaleColors
+  grayscaleColors,
+  baseColors
 } from "./colors";
 
 const theme = {
   colors: {
-    text: primaryColors.brandText,
-    background: grayscaleColors.gray000,
     ...brandColors,
     ...gradientColors,
     ...accentColors,
@@ -21,7 +20,8 @@ const theme = {
     ...successColors,
     ...warningColors,
     ...errorColors,
-    ...grayscaleColors
+    ...grayscaleColors,
+    ...baseColors
   },
   space: [0, 4, 8, 16, 24, 32, 64, 128, 256, 512],
   // fontSizes: [12, 14, 16, 20, 24, 32, 48, 64], // do we want to use scales for everything, or only when it makes sense? Named values would obviously be easier to remember and easier to extend without needing to refactor.

@@ -18,45 +18,48 @@ enum accentColors {
   accent2 = "#AE4BCB",
   accent3 = "#6367EB",
   accent4 = "#2F837E",
-  accent5 = "#677E4B",
-  accent6 = "#D88E1F"
+  accent5 = "#D88E1F"
 }
 
 // This would get changed for different primary colors/themes
 enum primaryColors {
-  brandLighter = "#E6E9FF",
-  brandLight = "#A8B2FF",
-  brandBase = "#1A5AFE",
-  brandDark = "#012C8E",
-  brandDarker = "#001146",
-  brandText = "#191919"
+  primary100 = "#E6E9FF",
+  primary200 = "#A8B2FF",
+  primary500 = "#1A5AFE",
+  primary700 = "#012C8E",
+  primary800 = "#001146"
 }
 
 enum successColors {
-  successLightest = "#F2FCF6",
-  successLighter = "#DFF2EA",
-  successLight = "#B8E5D3",
-  success = "#69BFA0",
-  successDark = "#008055",
-  successDarker = "#006647"
+  success100 = "#F2FCF6",
+  success200 = "#DFF2EA",
+  success300 = "#B8E5D3",
+  success500 = "#69BFA0",
+  success700 = "#008055",
+  success800 = "#007350",
+  success900 = "#006647"
 }
 
 enum warningColors {
-  warningLightest = "#FFF8ED",
-  warningLighter = "#FFF1D9",
-  warningLight = "#FFDEA6",
-  warning = "#E8A126",
-  warningDark = "#CC8100",
-  warningDarker = "#994D00"
+  warning100 = "#FFF8ED",
+  warning200 = "#FFF1D9",
+  warning300 = "#FFDEA6",
+  warning500 = "#F2BC61",
+  warning600 = "#D9992B",
+  warning700 = "#BF7900",
+  warning800 = "#AC6300",
+  warning900 = "#994D00"
 }
 
 enum errorColors {
-  errorLightest = "#FFF8ED",
-  errorLighter = "#FAEBEB",
-  errorLight = "#F2CECE",
-  error = "#E58989",
-  errorDark = "#B20000",
-  errorDarker = "#990000"
+  error100 = "#FFF8ED",
+  error200 = "#FAEBEB",
+  error300 = "#F2CECE",
+  error500 = "#E58989",
+  error600 = "#CC5252",
+  error700 = "#B20000",
+  error800 = "#A50000",
+  error900 = "#990000"
 }
 
 enum grayscaleColors {
@@ -72,6 +75,13 @@ enum grayscaleColors {
   gray900 = "#000A28"
 }
 
+enum baseColors {
+  text = "#191919",
+  white = "#F2F2F2",
+  black = "#0D0D0D",
+  background = "FFFFFF"
+}
+
 export {
   brandColors,
   gradientColors,
@@ -80,5 +90,6 @@ export {
   successColors,
   warningColors,
   errorColors,
-  grayscaleColors
+  grayscaleColors,
+  baseColors
 };

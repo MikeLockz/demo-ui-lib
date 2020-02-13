@@ -7,7 +7,7 @@ export interface ButtonProps {
 }
 
 const StyledCodefiButton = styled.button`
-  background-color: ${props => props.theme.colors.primary};
+  background-color: ${props => props.theme.colors.primary500};
   color: ${props => props.theme.colors.text};
   border: none;
 `;
