@@ -1,6 +1,6 @@
 {
   "name": "@rimble/codefi-themes",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Themes built for Codefi",
   "main": "./lib/index.js",
   "module": "./lib-esm/index.js",
