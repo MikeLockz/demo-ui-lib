@@ -1,6 +1,7 @@
 {
-  "name": "@rimble/codefi-button",
-  "version": "4.0.0",
+  "name": "@rimble/special-button",
+  "version": "0.0.0",
+  "description": "SpecialButton when Button isn't enough",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
   "module": "./lib-esm/index.js",

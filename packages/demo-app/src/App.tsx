@@ -12,7 +12,7 @@ import {
   Card
 } from "rimble-ui";
 // import CodefiButton from "@rimble/codefi-button";
-import Accordion from "@rimble/codefi.accordion";
+import Accordion from "@rimble/accordion";
 import theme from "@rimble/codefi-themes";
 
 const GradientBox = styled(Box)`

@@ -1,7 +1,7 @@
 {
-  "name": "@rimble/codefi-themes",
-  "version": "4.0.0",
-  "description": "Themes built for Codefi",
+  "name": "@rimble/themes",
+  "version": "0.0.0",
+  "description": "Themes built for Rimble-UI",
   "main": "./lib/index.js",
   "module": "./lib-esm/index.js",
   "types": "./lib/index.d.ts",
