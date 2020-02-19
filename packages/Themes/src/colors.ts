@@ -1,5 +1,5 @@
 enum brandColors {
-  brandBlue = "#1A5AFE", // All Codefi products
+  brandBlue = "#F82495", // All Codefi products
   brandPink = "#F82495", // Payments + Data
   brandGreen = "#C0F188", // Networks
   brandYellow = "#FBD448", // Networks + Data
