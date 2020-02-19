@@ -1,6 +1,6 @@
-# CodeFi's shared frontend components
+# Derivitive UI library
 
-Monorepo for developing and publishing React components.
+Monorepo for developing and publishing React components that are based from anoother UI library (rimble-ui).
 
 # Quick start
 
@@ -9,7 +9,7 @@ Each package is independently versioned and published. This allows to opt-in to 
 **Install components**
 
 ```bash
-npm install @rimble/codefi-button
+npm install @rimble/button
 
 # Peer Dependencies - Also Required
 npm install react react-dom prop-types styled-components styled-system
@@ -18,7 +18,7 @@ npm install react react-dom prop-types styled-components styled-system
 **Import components**
 
 ```js
-import Button from @rimble/codefi-button
+import Button from @rimble/button
 ```
 
 # Contributing
