@@ -1,5 +1,5 @@
 enum brandColors {
-  brandBlue = "#F82495", // All Codefi products
+  brandBlue = "#1A5AFE", // All Codefi products
   brandPink = "#F82495", // Payments + Data
   brandGreen = "#C0F188", // Networks
   brandYellow = "#FBD448", // Networks + Data
@@ -7,7 +7,7 @@ enum brandColors {
 }
 
 enum gradientColors {
-  gradient1 = "linear-gradient(173.21deg, #F82495 17.68%, #3BE3DB 86.46%)",
+  gradient1 = "linear-gradient(173.21deg, #1A5AFE 17.68%, #3BE3DB 86.46%)",
   gradient2 = "linear-gradient(90deg, rgba(248, 36, 149, 0) 37.5%, #FBD448 100%), linear-gradient(173.21deg, #2C56DD 53.66%, #F82495 100%)",
   gradient3 = "linear-gradient(90deg, #1A5AFE 12.5%, #3BE3DB 74.99%, #C0F188 100%)",
   gradient4 = "linear-gradient(173.21deg, #1A5AFE 26.52%, #F82495 91.16%)"
