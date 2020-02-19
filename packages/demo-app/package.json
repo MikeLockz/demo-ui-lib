@@ -5,9 +5,11 @@
   "dependencies": {
     "@rimble/codefi-button": "*",
     "@rimble/codefi-themes": "*",
+    "@rimble/codefi.accordion": "*",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-scripts": "3.3.1",
+    "rimble-ui": "^0.11.1",
     "styled-components": "^5.0.1"
   },
   "scripts": {
