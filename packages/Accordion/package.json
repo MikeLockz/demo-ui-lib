@@ -1,6 +1,6 @@
 {
   "name": "@rimble/accordion",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Accordion that shows and hides content",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",

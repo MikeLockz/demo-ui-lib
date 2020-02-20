@@ -1,6 +1,6 @@
 {
   "name": "@rimble/themes",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Themes built for Rimble-UI",
   "main": "./lib/index.js",
   "module": "./lib-esm/index.js",
