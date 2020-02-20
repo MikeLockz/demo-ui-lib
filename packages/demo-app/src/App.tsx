@@ -11,9 +11,9 @@ import {
   Text,
   Card
 } from "rimble-ui";
-// import CodefiButton from "@rimble/codefi-button";
+// import CodefiButton from "@rimble/special-button";
 import Accordion from "@rimble/accordion";
-import theme from "@rimble/codefi-themes";
+import theme from "@rimble/themes";
 
 const GradientBox = styled(Box)`
   background-image: ${props => props.theme.colors.gradient1};
