@@ -115,4 +115,10 @@ declare module "rimble-ui" {
   }
   export declare const Icon: (props: IconProps) => JSX.Element;
   export default Icon;
+
+  export interface BaseStylesProps {
+    [propName: string]: any;
+  }
+  export declare const BaseStyles: (props: BaseStylesProps) => JSX.Element;
+  export default BaseStyles;
 }

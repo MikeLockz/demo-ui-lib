@@ -9,9 +9,10 @@ import {
   Button,
   Heading,
   Text,
-  Card
+  Card,
+  BaseStyles
 } from "rimble-ui";
-// import CodefiButton from "@rimble/special-button";
+
 import Accordion from "@rimble/accordion";
 import theme from "@rimble/themes";
 
@@ -25,10 +26,6 @@ const GradientButton = styled(Button)`
 
 const GradientCircle = styled(Box)`
   background-image: ${props => props.theme.colors.gradient1};
-  border-radius: 50%;
-  height: 150px;
-  width: 150px;
-  margin-top: -135px;
 `;
 
 const WhiteCard = styled(Card)`
@@ -39,44 +36,51 @@ function App() {
   console.log("theme", theme);
   return (
     <ThemeProvider theme={theme}>
-      <Flex alignItems={"stretch"} height={"100%"}>
-        <GradientBox width={"500px"} />
-        <Flex justifyContent={"center"} flex="1" bg={"gray100"}>
-          <Flex flexDirection={"column"} justifyContent={"center"}>
-            <WhiteCard maxWidth={"400px"} bg={"white"} p={6}>
-              <Flex flexDirection={"column"}>
-                <Flex justifyContent={"center"}>
-                  <GradientCircle mb={4} />
+      <BaseStyles>
+        <Flex alignItems={"stretch"} height={"100%"}>
+          <GradientBox width={"500px"} />
+          <Flex justifyContent={"center"} flex="1" bg={"gray100"}>
+            <Flex flexDirection={"column"} justifyContent={"center"}>
+              <WhiteCard maxWidth={"400px"} bg={"white"} p={6}>
+                <Flex flexDirection={"column"}>
+                  <Flex justifyContent={"center"}>
+                    <GradientCircle
+                      mb={4}
+                      size={"150px"}
+                      borderRadius={"50%"}
+                      mt={"-135px"}
+                    />
+                  </Flex>
+                  <Heading>Welcome,</Heading>
+                  <Text>Sign in to your account to view your assets.</Text>
+                  <Form mt={5}>
+                    <Field label={"Email"} width="100%">
+                      <Input width="100%" type="text" required />
+                    </Field>
+                    <Field label={"Password"} width="100%">
+                      <Input width="100%" type="password" required />
+                    </Field>
+                    <Accordion
+                      heading={<Text>View Terms and Conditions</Text>}
+                      content={
+                        <>
+                          <Text>I am the content line 1.</Text>
+                          <Text>I am the content line 2.</Text>
+                          <Text>I am the content line 3.</Text>
+                          <Text>I am the content line 4.</Text>
+                        </>
+                      }
+                    />
+                    <GradientButton width={"100%"} bg={"primary"} mt={4}>
+                      Sign in
+                    </GradientButton>
+                  </Form>
                 </Flex>
-                <Heading>Welcome,</Heading>
-                <Text>Sign in to your account to view your assets.</Text>
-                <Form mt={5}>
-                  <Field label={"Email"} width="100%">
-                    <Input width="100%" type="text" required />
-                  </Field>
-                  <Field label={"Password"} width="100%">
-                    <Input width="100%" type="password" required />
-                  </Field>
-                  <Accordion
-                    heading={<Text>View Terms and Conditions</Text>}
-                    content={
-                      <>
-                        <Text>I am the content line 1.</Text>
-                        <Text>I am the content line 2.</Text>
-                        <Text>I am the content line 3.</Text>
-                        <Text>I am the content line 4.</Text>
-                      </>
-                    }
-                  />
-                  <GradientButton width={"100%"} bg={"primary"} mt={4}>
-                    Sign in
-                  </GradientButton>
-                </Form>
-              </Flex>
-            </WhiteCard>
+              </WhiteCard>
+            </Flex>
           </Flex>
         </Flex>
-      </Flex>
+      </BaseStyles>
     </ThemeProvider>
   );
 }

@@ -23,7 +23,7 @@ const theme = {
     ...grayscaleColors,
     ...baseColors
   },
-  space: [0, 4, 8, 16, 24, 32, 64, 128, 256, 512],
+  space: [0, 4, 8, 12, 16, 20, 24, 32, 40, 64, 128, 256, 512], // added 12, 20, 24, 40 (to base 2 values)
   // fontSizes: [12, 14, 16, 20, 24, 32, 48, 64], // do we want to use scales for everything, or only when it makes sense? Named values would obviously be easier to remember and easier to extend without needing to refactor.
   // fontSizes.body: fontSizes[2], // We can't follow the guidance of styled-system's aliases due to Typescript error
   fontSizes: {
